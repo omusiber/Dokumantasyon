@@ -20,3 +20,9 @@ Bir kablosuz LAN ağında güvenli veri iletimi büyük sorunlar yaratabilir.Gü
 Verinin güvenli iletilmesi için TCP gibi bir bağlantı kurulması gerekir *(ayrıntılı bilgi için dökümantasyon projesinde taşıma katmanı klasörünü inceleyebilirsiniz)*
 
 ### Erişim Kontrolü
+
+Erişim kontrolü için Frame Exchange Protocol kullanılır.
+
++ Kaynak istasyon veriyi taşır
++ Hedef ACK (acknowledgment) ile cevap verir
++ Eğer ACK alınmamışsa, kaynak istasyon tekrar taşır
